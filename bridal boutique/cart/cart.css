@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+  }
+  
+  #cart {
+    border: 1px solid black;
+    padding: 10px;
+  }
+  
+  #items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .item {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+  }
+  

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" type="text/css" href="cart.css">
+  </head>
+  <body>
+
+    <div id="cart"></div>
+<button onclick="showCart()">Show Cart</button>
+<button onclick="clearCart()">Clear Cart</button>
+
+
+    <h1>Shopping Cart</h1>
+
+    <div id="cart"></div>
+    <div id="items">
+      <h2>Items</h2>
+      <div class="item">
+        <p>Apple</p>
+        <button onclick="addToCart('Apple')">Add to Cart</button>
+      </div>
+
+
+      <div class="item">
+        <p>Banana</p>
+        <button onclick="addToCart('Banana')">Add to Cart</button>
+      </div>
+      <div class="item">
+        <p>Orange</p>
+        <button onclick="addToCart('Orange')">Add to Cart</button>
+      </div>
+    </div>
+
+    <script src="cart.js"></script>
+  </body>
+</html>
